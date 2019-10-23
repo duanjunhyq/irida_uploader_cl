@@ -54,4 +54,15 @@ irida_uploader_cl
 
 ## Running irida_uploader_cl for the first time
 
+[Settings]
+client_id = uploader
+client_secret = ZK1z6H165y4IZF2ckqNQES315OyKQU8CsrpHNdQr16
+username = admin
+password = password1
+base_url = http://localhost:8080/irida-latest/api/
+parser = miseq
+# parser = directory
+# parser = miniseq
+# parser = nextseq
+
 
