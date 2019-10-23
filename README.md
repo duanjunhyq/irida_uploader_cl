@@ -16,7 +16,7 @@ python3 -m venv your_environment_name
 Then activate it
 
 ```
-source activate your_environment_name/bin/activate
+source your_environment_name/bin/activate
 
 ```
 
