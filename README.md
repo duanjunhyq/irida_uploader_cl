@@ -45,4 +45,13 @@ After that, you can install irida_uploader_cl
 conda install -c sequdas irida_uploader_cl
 ```
 
+After installation, you can type this command to test:
+
+```
+irida_uploader_cl
+
+```
+
+## Running irida_uploader_cl for the first time
+
 
