@@ -54,6 +54,10 @@ irida_uploader_cl
 
 ## Running irida_uploader_cl for the first time
 
+The default config file is at ~/.config/irida-uploader/config.conf. An example for the setting is as follows:
+
+```
+
 [Settings]
 client_id = uploader
 client_secret = ZK1z6H165y4IZF2ckqNQES315OyKQU8CsrpHNdQr16
@@ -65,4 +69,5 @@ parser = miseq
 # parser = miniseq
 # parser = nextseq
 
+```
 
