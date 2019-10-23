@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='irida_uploader_cl',
-    version='0.1',
+    version='0.2',
     description='IRIDA uploader: upload NGS data to IRIDA system',
     url='https://github.com/duanjunhyq/irida_uploader_cl',
     author='Jun Duan',
