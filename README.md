@@ -1,8 +1,6 @@
 # IRIDA_uploader_cl
 
-## IRIDA_uploader_cl is used to upload NGS sequences to irida system.
-
-#### This tool is developed by National Microbiology Laboratory (NML) and redistributed by BCCDC William Hsiao's lab.
+#### IRIDA_uploader_cl is used to upload NGS sequences to irida system. This tool is developed by National Microbiology Laboratory (NML) and redistributed by BCCDC William Hsiao's lab.
 
 
 This tools can be installed by pip or conda. We would recommend using virtual environment to install this.
