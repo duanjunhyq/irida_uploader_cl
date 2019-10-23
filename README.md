@@ -45,7 +45,7 @@ After that, you can install irida_uploader_cl
 conda install -c sequdas irida_uploader_cl
 ```
 
-##check if the installation is successful
+## check if the installation is successful
 
 You can type this command to test:
 
