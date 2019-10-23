@@ -25,9 +25,9 @@ channels:
 
 requirements:
   host:
-    - python>=3.5
+    - python==3.6
   run:
-    - python>=3.5
+    - python==3.6
     - autopep8
     - pycodestyle
     - requests
@@ -35,6 +35,9 @@ requirements:
     - cerberus
     - argparse
     - selenium
+    - rauth
+    - mkdocs
+    - pytest
 
 about:
   home: "https://github.com/duanjunhyq/irida_uploader_cl"

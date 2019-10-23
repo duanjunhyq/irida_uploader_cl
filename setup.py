@@ -16,7 +16,6 @@ setuptools.setup(
     keywords="IRIDA NGS uploader",    
     packages=setuptools.find_packages(include=[ 'irida_uploader_cl',
                                                 'irida_uploader_cl.*',
-
                                                 ]),
     install_requires=['rauth',
         'autopep8',
