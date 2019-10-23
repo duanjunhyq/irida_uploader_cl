@@ -1,0 +1,50 @@
+{% set name = "irida_uploader_cl" %}
+{% set version = "0.1" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+# source:
+#    url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+#    sha256: "e942ae7a0343b668381219a412e099de261de4889649ce6834370d94a4980592"
+
+source:
+   url: "https://test-files.pythonhosted.org/packages/44/45/7d77f7105fbd1c4ca6b2cff4ab5386e72b7bed62b96b3a0f7bc91d5aaa19/irida_uploader_cl-0.1.tar.gz"
+   sha256: "cf33c945738af17b3c3c11deb0e15304381239f584ee25fe5e25f51bbf57a46f"
+
+build:
+  number: 0
+  entry_points:
+    - irida_uploader_cl=irida_uploader_cl.irida_uploader_cl:main
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+
+channels:
+  - defaults
+  - conda-forge
+
+requirements:
+  host:
+    - python>=3.5
+  run:
+    - python>=3.5
+    - autopep8
+    - pycodestyle
+    - requests
+    - appdirs
+    - cerberus
+    - argparse
+    - selenium
+
+about:
+  home: "https://github.com/duanjunhyq/irida_uploader_cl"
+  license: "MIT"
+  license_family: "MIT"
+  license_file: ""
+  summary: "irida uploader: a tools used to upload NGS sequences to irida system"
+  doc_url: ""
+  dev_url: ""
+
+extra:
+  recipe-maintainers:
+    - duanjunhyq
