@@ -73,3 +73,15 @@ parser = miseq
 
 ```
 
+## prepare the samplelist.csv if you want to upload the folder containing fastq files. 
+
+You can run the script:
+```
+perl prepare_for_irida_uploader.pl -i fastq_files_dir -o output_dir -p irida_project_id 
+
+    -i location for fastq files
+    -o output directory
+    -p irida project id
+    -h help
+
+```
