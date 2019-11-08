@@ -73,7 +73,7 @@ parser = miseq
 
 ```
 
-## prepare the samplelist.csv if you want to upload the folder containing fastq files. 
+## prepare the SampleList.csv if you want to upload the folder containing fastq files. 
 
 You can run the script:
 ```
